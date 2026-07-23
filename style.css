@@ -546,4 +546,55 @@ body {
         transform: scale(1);
         opacity: 1;
     }
+
+    /* Mobile responsive fix */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+        margin: 0 auto;
+    }
+
+    .about-image img {
+        width: 220px;
+        height: 280px;
+        margin-left: 0;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-highlights {
+        justify-content: center;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 40px 20px;
+    }
+
+    .contact-resume-card {
+        padding: 20px;
+    }
+}
 }
