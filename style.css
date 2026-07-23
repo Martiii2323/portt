@@ -493,7 +493,7 @@ body {
     border-radius: 20px;
     border: 3px solid rgba(59, 130, 246, 0.4);
     box-shadow: 0 0 25px rgba(59, 130, 246, 0.3);
-    margin-left: -300px; /* moves only the photo to the left */
+    margin-left: -900px; /* moves only the photo to the left */
 }
 
 /* Image Modal / Lightbox */
