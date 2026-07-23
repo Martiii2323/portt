@@ -547,7 +547,10 @@ body {
         opacity: 1;
     }
 
-    /* Mobile responsive fix */
+  
+}
+
+/* Mobile responsive fix */
 @media (max-width: 768px) {
     .navbar {
         padding: 15px 20px;
@@ -597,4 +600,4 @@ body {
         padding: 20px;
     }
 }
-}
+
